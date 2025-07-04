@@ -1,6 +1,5 @@
 # Management API
 
-
 ## Installation
 
 1. Clone the repository:
@@ -18,12 +17,24 @@
 
 ## Running the App
 
-Start both the API and the frontend with:
+- The API will run on [http://localhost:3001](http://localhost:3001)
 
-```bash
-npm start
-```
+- The frontend (Vite) will run on [http://localhost:5173](http://localhost:5173)
 
+ 
+
+
+- To run the API (json-server):
+
+    ```bash
+    npm run json-server
+    ```
+
+- To run the frontend (Vite):
+
+    ```bash
+    npm run dev
+    ```
 
 ## Project Structure
 
@@ -31,7 +42,7 @@ npm start
 management-api/
 ├── db.json            # Fake database for json-server
 ├── css/
-│   └── styles.css      # Main CSS file
+│   └── styles.css     # Main CSS file
 ├── js/
 │   ├── api.js         # API functions (Axios)
 │   └── index.js       # Main frontend logic
